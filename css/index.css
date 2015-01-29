@@ -1,0 +1,39 @@
+#container{
+	background: #A34911;
+	padding-top: 40%;
+	text-align: center;
+	color: #FFFFFF;
+}
+#container .container_title{
+	color: #FFFFFF;
+}
+#container .container_menu{
+	width: 70%;
+	height: 40px;
+	line-height: 40px;
+	background: #DBB8A5;
+	margin: 0 auto;
+	border-radius: 30px;
+	margin-bottom: 15px;
+	font-size: 20px;
+}
+#container .container_menu_suggest{
+	display: block;
+	margin-top: 30px;
+	padding-bottom: 20px;
+}
+
+.cash-content .suggest_content{
+	width: 80%;
+	height: 80%;
+	display: block;
+	margin: 20px auto 4px auto;
+}
+.cash-content span{
+	color: #984f24;
+	font-size: 15px;
+	width: 75%;
+	height: 10%;
+	margin: 10px 12% 0px 12%;
+	
+}

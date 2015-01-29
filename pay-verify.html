@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ORCH bar</title>
+
+    <!-- Sets initial viewport load and disables zooming  -->
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+
+    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <!-- Include the compiled Ratchet CSS -->
+    <link href="ratchet-master/dist/css/ratchet.css" rel="stylesheet">
+     <link rel="stylesheet" type="text/css" href="css/pay.css"/>
+    <!-- Include the compiled Ratchet JS -->
+    <script src="ratchet-master/dist/js/ratchet.js"></script>
+  </head>
+  <script type="text/javascript">
+  	
+  </script>
+  <body>
+
+    <!-- Make sure all your bars are the first things in your <body> -->
+    <header class="bar bar-nav header">
+    		<button class="btn btn-link btn-nav pull-left">
+    			<span class="icon icon-left-nav" ></span>
+    				返回
+  		</button>
+      	<h1 class="title">ORCH bar</h1>
+    </header>
+
+    <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+    <div class="content">
+    		<div class="subtitle">
+    			 <div class="subtitle-title">选择支付
+    			 	 <a href="#" class="Service">服务</a>
+    			 </div>	
+    		</div>
+    		<div class="captcha">
+    			<div class="content-top">
+    				<div class="captcha-verify">
+    					正在验证请稍后
+    				</div>
+    			</div>
+    			<div class="pay">
+    			   <div class="pay-select">微信支付</div>
+    			   <div class="pay-select">支付宝支付</div>
+    			   <div class="pay-select">现金支付</div>
+    			</div>
+    		</div>
+    		
+    </div>
+    <nav class="bar bar-tab footer">
+    	
+    </nav>
+
+  </body>
+</html>

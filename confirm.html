@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ORCH bar</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link href="ratchet-master/dist/css/ratchet.css" rel="stylesheet">
+     <link rel="stylesheet" type="text/css" href="css/pay.css"/>
+     <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+    <script src="ratchet-master/dist/js/ratchet.js"></script>
+  </head>
+  
+  <body>
+
+    <!-- Make sure all your bars are the first things in your <body> -->
+    <header class="bar bar-nav header">
+    		<button class="btn btn-link btn-nav pull-left">
+    			<span class="icon icon-left-nav"></span>
+    				返回
+  		</button>
+      	<h1 class="title">ORCH bar</h1>
+    </header>
+
+    <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+    <div class="content" >
+    		<div class="subtitle">
+    			 <div class="subtitle-title">选择支付
+    			 	 <a href="#" class="Service">服务</a>
+    			 </div>	
+    		</div>
+    		<div class="captcha">
+    			<div class="content-top">
+    				<div class="captcha-verify succeed">
+    					验证成功！请选择支付方式
+    				</div>
+    			</div>
+    			<div class="pay">
+    			   <div class="pay-select wechat">微信支付</div>
+    			   <div class="pay-select alipay">支付宝支付</div>
+    			   <div class="pay-select cash" id="cash">现金支付</div>
+    			</div>
+    		</div>
+    		<!--弹窗
+            -->
+	    		<div class="mask mask-all" id="mask-all"></div>
+	    		<div class="cash-select" id="cash-select"></div>
+	    		<div class="mask-all mask-content" id="content">
+	    			<div class="cash-header">
+	    				<span class="cash-header-left">现金结账</span>
+	    				<div id="close"></div>
+	    			</div>
+	    			<div class="cash-content">
+	    				<input type="button" class="cash-pay" value="现在现金支付"/>
+	    				<input type="button" class="cash-pay" value="稍后现金支付"/>
+	    			</div>
+	    			<input type="button" value="返回选择"/>
+	   		</div>
+   		
+    </div>
+    <nav class="bar bar-tab footer">
+    	
+    </nav>
+	<script type="text/javascript">
+   	var mask=document.getElementsByClassName('mask-all');
+   	var cashselect=document.getElementById("cash-select")
+   	var close=document.getElementById("close");
+
+   	
+   	cash.onclick=function (){
+   		
+   		for (i=0;i<mask.length;i++) {
+   				mask[i].style.display="block";
+   				cashselect.style.display="block";
+   			
+   		}
+   	}
+	close.onclick=function(){
+			for (i=0;i<mask.length;i++) {
+   				mask[i].style.display="none";
+   				cashselect.style.display="none";
+   			
+   		}
+	}
+  
+  </script>
+  </body>
+</html>

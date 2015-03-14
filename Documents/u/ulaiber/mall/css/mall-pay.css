@@ -1,0 +1,38 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.pay-content{
+	width: 80%;
+	height: 150px;
+	margin: 0 auto;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top:60px;
+}
+input[type="button"]{
+	width: 80%;
+	height: 40px;
+	color: #FFFFFF;
+	display: block;
+	margin: 20px auto;
+	border-radius: 10px;
+}
+input[value="微信支付"]{
+	background-color: #00b800;
+	border:0px;
+}
+input[value="支付宝支付"]{
+	background-color: #ff5d00;
+	border: 0px;
+}
+input[value="现金支付"]{
+	background-color: #ff9000;
+	border: 0px;
+}
+.pay-tips{
+	display: block;
+	text-align: center;
+	font-size: 10px;
+	color:#FF9000;
+}

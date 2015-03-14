@@ -1,0 +1,98 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.commodity-logo{
+	width: 100%;
+	height: 60px;
+	margin-top: 40px;
+}
+.commodity-logo img{
+	display: block;
+	width:40px;
+	height: 40px;
+	margin: 10px auto;
+}
+
+#commodity-content #left{
+	width: 10%;
+	height: 100%;
+	padding-top: 100px;
+	z-index: 9;
+	position: absolute;
+	background-color: #000000;
+}
+
+#commodity-content #right{
+	width: 10%;
+	height: 100%;
+	position: absolute;
+	top:0px;
+	text-align: right;
+	padding-top: 100px;
+	z-index: 9;
+	right: 0px;
+	background-color: #000000;
+	
+}
+
+#commodity-content{
+	width: 100%;
+	height: 320px;
+	margin-top: -10px;
+	color:#FFFFFF;
+}
+#commodity-lists{
+	width:100%;
+	height: 100%;
+	background-color: #000000;
+	margin: 0 auto;
+
+}
+#commodity-list{
+	height: 80%;
+	width: 60%;
+	padding-top: 10px;
+	margin: 0 auto;
+	display: block;
+		
+}
+.commodity-title{
+	width: 60%;
+	height: 20% ;
+	margin: 0 auto;
+}
+.commodity-title h1{
+	font-size: 15px;
+	text-align: center;
+	margin: -3px 0px;
+	color: #FFFFFF;
+	padding: 0px;
+	height: 20px;
+	}
+.commodity-title h1:nth-child(1){
+	padding-top: 5px;
+}
+.commodity-title h1:nth-child(2){
+	font-size: 10px;
+	padding-top: 7px;
+}
+.commodity-title h1:nth-child(3){
+	font-size: 30px;
+	color: #F87500;
+	margin-top: 5px;
+}
+.commodity-submit{
+	width: 100%;
+	height: 80px;
+}
+.commodity-submit input {
+	border:1px solid #F87500;
+	color: #FFFFFF;
+	width: 40%;
+	display: block;
+	border-radius: 10px;
+	padding: 5px;
+	margin: 8px auto;
+	background-color: #F87500;
+}

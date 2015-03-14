@@ -24,7 +24,7 @@
 	width: 90%;
 	height: 365px;
 	position: absolute;
-	border:1px solid red;
+	
 	top:0px;
 	border-radius: 15px;
 	margin:80px 5% auto 5%;
@@ -36,6 +36,14 @@
 	height: 12%;
 	border-bottom: 2px solid #FFFFFF;
 	margin: 0 auto;
+}
+.suggest-content #suggest-close{
+	
+	margin-top: -2%;
+}
+.suggest-header img{
+	width: 30px;
+	height: 30px;
 }
 .suggest-header-left{
 	display: block;
@@ -50,12 +58,12 @@
 	width: 10%;
 	height: 30px;
 	padding: 10px;
-	border: 1px solid red;
+	
 	float: right;
 	margin-right: 10px;
 }
 .suggest-find{
-	border:1px solid red;
+	
 	width: 90%;
 	height: 70%;
 	margin: 0 auto;
@@ -70,9 +78,10 @@
 .suggest-find span{
 	color: #fb9800;
 	display: block;
-	width: 80%;
+	width:200px;
 	height: 30px;
-	margin:  30px auto;
+
+	margin: 0 auto;
 }
 .suggest-submit{
 	width:30%;
@@ -90,4 +99,9 @@
 }
 #suggest-succeed{
 	display: none;
+}
+.suggests-content{
+	height: 50%;
+	width: 95%;
+	margin: 3%;
 }

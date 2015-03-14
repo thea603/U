@@ -24,7 +24,7 @@
 	width: 90%;
 	height: 360px;
 	position: absolute;
-	border:1px solid red;
+	
 	top:0px;
 	border-radius: 15px;
 	margin:80px 5% auto 5%;
@@ -44,20 +44,25 @@
 	color: #984F24;
 	padding: 10px;
 	float: left;
-	
+
 }
 .order-header #order-close{
 	width: 10%;
 	height: 30px;
 	padding: 10px;
-	border: 1px solid red;
+	
 	float: right;
 	margin-right: 10px;
+	margin-top: -2%;
+}
+.order-header img{
+	width: 30px;
+	height: 30px;
 }
 .order-find{
-	border:1px solid red;
 	width: 90%;
-	height: 70%;
+	
+	
 	margin: 0 auto;
 }
 .order-find input[value="请在此输入"]{
@@ -70,18 +75,18 @@
 .order-find span{
 	color: #fb9800;
 	display: block;
-	width: 80%;
+	width: 200px;
 	height: 30px;
-	margin:  30px auto;
+	
+	margin: 3% auto;
 }
 input[value="提交"]{
 	width:30%;
-	height: auto;
 	display: block;
 	margin: 0 auto;
 	padding: 5px;
 	border-radius: 10px;
 	border:1px solid #984F24;
 	background-color: #984F24;
-	color:#FFFFFF;
+	color:#FFFFFF;*/
 }

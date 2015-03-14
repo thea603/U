@@ -33,37 +33,29 @@
 				<div class="container_menu" id="order-find">查询订单</div>
 				<span class="container_menu_suggest" id="suggest-idea">建议服务</span>
 			</div>
-		<!--
-        	作者：494752646@qq.com
-        	时间：2015-01-26
-        	描述：服务建议
-        -->	
+		
             <div class="suggest suggests" id="suggest"></div>
 			<div class="suggest suggest-select" id="suggest-select"></div>
 	    		<div class="suggest suggest-content" id="suggest-content">
 	    			<div class="suggest-header">
 	    				<span class="suggest-header-left">服务建议	</span>
-	    				<div id="suggest-close"></div>
+	    				<div id="suggest-close"><img src="img/关闭.png"/></div>
 	    			</div>
 	    			<div class="suggest-find">
-	    				<input type="text" value="请在此输入" />
+	    				<textarea class="suggests-content"></textarea>
 	    				<span>请输入您的桌号和验证码</span>
 	    			</div>
 	    			<input type="button"  id="suggest-submit" value="提交" />
 	   		</div>
 	   		
 	   		
-	   		<!--
-               	作者：494752646@qq.com
-               	时间：2015-01-26
-               	描述：
-               -->
+
             <div class="order orders" id="order"></div>
 			<div class="order order-select" id="order-select"></div>
 	    		<div class=" order order-content" id="order-content">
 	    			<div class="order-header">
 	    				<span class="order-header-left">查询订单	</span>
-	    				<div id="order-close"></div>
+	    				<div id="order-close"><img src="img/关闭.png" alt="" /></div>
 	    			</div>
 	    			<div class="order-find">
 	    				<input type="text" value="请在此输入" />
@@ -111,9 +103,7 @@
 		   				orderselect.style.display="none";
 		   		}	
 		   	}
-  		   suggestsumit.onclick=function(){
-  		   	  content.style.display="none";
-  		   }
+  		 
   </script>
 	</body>
 </html>

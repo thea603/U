@@ -1,0 +1,157 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background: #A34911;
+	font-family: "微软雅黑";
+}
+.bar{
+	background: #212121;
+	border: none;
+}
+.icon{
+	color: #FFFFFF;
+}
+.title{
+	color: #FFFFFF;
+}
+.clear{
+	clear: both;
+}
+.btn.btn-link{
+	color: #FFFFFF;
+}
+.content{
+	background:#00265c;
+}
+.footer{
+	height: 5%;
+	background-color: #f87500;
+}
+.subtitle{
+	width: 100%;
+	height: 30px;
+	position: fixed;
+	background-color:#f87500 ;
+	color: #FFFFFF;
+	line-height: 30px;
+	text-align: center;
+	z-index: 9;
+}
+.subtitle .share{
+	width: 20%;
+	position: absolute;
+	top:0px;
+	right: 0px;
+}
+
+.shopcar-content{
+	background-color: #b1bfd0;
+	width: 90%;
+	height: 270px;
+	margin: 40px auto 0px auto ;
+	border-radius: 10px;
+}
+.shopcar-content-title{
+	width: 95%;
+	height: 30px;
+	margin: 0 auto;
+	border-bottom:1px solid #6E6664;		
+}
+.shopcar-content-title ul{
+	width: 100%;
+	height: 25px;
+}
+.shopcar-content-title ul li{
+   list-style-type: none;
+   display: block;
+   color: #FFFFFF;
+   width: 33%;
+   height: 25px;
+   float: left;
+   padding:5px 0px;
+   
+}
+.shopcar-content-title ul li:nth-child(2){
+	text-align: center;
+	
+}
+.shopcar-content-title ul li:nth-child(3){
+	text-align: center;
+}
+.shopcar-content-list{
+	overflow: scroll; 
+	width: 95%;
+	margin: 0 auto;
+	height: 200px;
+	/*border:1px solid red;*/
+	border-bottom:1px solid #6E6664;
+}
+.content-list{
+	width: 98%;
+	height: 40px;
+	margin: 0 auto;
+	border-bottom:1px solid #6E6664;
+	/*border:1px solid red;*/
+	
+}
+.name{
+	width: 80%;
+	height: 20px;
+	
+}
+.price{
+	width: 85%;
+	height: 20px;
+	float: left;
+}
+.number{
+	width: 10%;
+	height: 20px;
+	text-align: right;
+	float: right;
+}
+.Unit-price{
+	width: 40%;
+	height: 20px;
+	float: right;
+	text-align: right;
+	/*border: 1px solid red;*/
+}
+.content-list input{
+	/*border:1px solid red;*/
+	margin-left: 20px;
+}
+.shopcar-total{
+	width: 95%;
+	/*border:1px solid red;*/
+	height: 40px;
+	margin: 0 auto;
+}
+.shopcar-total .total{
+	line-height: 40px;
+	color: #FFFFFF;
+	width: 80%;
+	float: left;
+	text-align: right;
+}
+.shopcar-total .price-total{
+	width: 20%;
+	float: left;
+	line-height: 40px;
+	font-size: 25px;
+	color: #ff7800;
+}
+.submit{
+	width: 85%;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: #FFFFFF;
+	font-size: 23px;
+	border-radius: 9px;
+	background-color: #00cf3d;
+	margin: 50px auto 0px auto;
+}
+

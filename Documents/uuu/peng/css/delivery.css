@@ -1,0 +1,43 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.delivery-content-title{
+	
+	width: 100%;
+	text-align: center;
+	color:#f87500;
+	font-weight: 10px;
+	font-size: 23px;
+	height: 70px;
+	line-height: 70px;
+	margin: 20px auto 0px auto;
+	border-radius: 10px;
+}
+
+.list{
+	width: 95%;
+	margin:10px auto 0px auto;
+	color: #F87500;
+}
+input[type="text"]{
+	display: block;
+	width: 95%;
+	margin: 0 auto;
+}
+.tips{
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 20px;
+}
+.delivery-submit{
+	width: 40%;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	color: #FFFFFF;
+	font-size: 23px;
+	border-radius: 9px;
+	background-color: #f87500;
+	margin: 10px auto 50px auto;
+}
